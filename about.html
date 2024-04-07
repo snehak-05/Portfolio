@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Section</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+        .main{
+            width: 100%;
+            height: 100%;
+            background:blueviolet;
+            display: flex;
+            align-items: center;
+            gap:7em;
+            padding: 30px 12% 0;
+        }
+        .main-content{
+            max-width: 300px;
+        }
+        .main-content h3{
+            font-size: 42px;
+        }
+        .main-content p{
+            font-size: 18px;
+            margin: 25px 0 30px;
+        }
+        .education li
+        {
+            margin-bottom: 15px;
+        }
+        .education h5
+        {
+            color: #003147;
+            font-weight: 800;
+
+        }
+        .education h4:nth-child(2)
+        {
+            color: white;
+            font-weight: 600;
+
+        }
+        .education h4
+        {
+            color: white;
+            font-weight: 500;
+
+        }
+        .language .percent
+        {
+            position: relative;
+            width: 6px;
+            height: 350px;
+            background: black;
+            display: block;
+            margin-top: 5px;
+        }
+        .language .percent div
+        {
+            position: absolute;
+            top: 0;
+            left:0;
+            height: 100%;
+            background: purple ;
+            box-shadow: inset 0 0 10px black,0 0 10px black;
+            
+        }
+        .main-content span{
+            color: white;
+        }
+        .title2
+        {
+            color: black;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            text-align: initial;
+        }
+        .about-interest ul{
+            margin-top: 0;
+            padding: 0;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 0;
+            text-align: center;
+            display: inline-block;
+        }
+        .about-interest ul li{
+            color: whitesmoke;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
+            text-align: center;
+        }
+        .about-interest ul li{
+            display: inline-block;
+            padding: 0 15px;
+        }
+        .main-content p{
+            color: white;
+        }
+        
+    </style>
+</head>
+<body bgcolor="blueviolet">
+    <section class="main">
+        <div class="main-content">
+            <h3>Hi</h3>
+
+            <h1>I'm<span> Sneha Kundu<br></span></h1>
+
+            <p>a first-year student currently pursuing my 
+                bachelor's in Computer Science at Chitkara University.
+                 I have a great interest in programming, coding, and 
+                 creating different projects. I aspire to become a 
+                 software engineer. <span>I believe in committing wholeheartedly 
+                 to our work with unwavering focus and striving for perfection.
+                  I firmly believe in consistently delivering our very best. </span>
+                  My most preferred programming language is Python, and I also 
+                  possess knowledge about HTML, CSS, JavaScript, C programming
+                   language, basics of DBMS, and computer networking.</p>
+        </div>
+        <div class="language">
+            <ul>
+                <li>
+                    <span class="text"></span>
+                    <span class="percent">
+                        <div style="width:100%;"></div>
+                    </span>
+                </li> 
+            </ul>
+        </div>
+        <div class="education">
+            <h3 class="title">Education</h3>
+            <ul>
+                <li>
+                    <h5>2023-2027</h5>
+                    <h4>Bchelor Degree in Computer Science & Engineering</h4>
+                    <h4>Chitkara University, Rajpura, Punjab</h4>
+                </li> 
+                <li>
+                    <h5>2022-2023</h5>
+                    <h4>Intermediate</h4>
+                    <h4>Kendriya Vidhyalaya Zirakpur</h4>
+                </li>
+                <li>
+                    <h5>2020-2021</h5>
+                    <h4>Matriculation</h4>
+                    <h4>Kendriya Vidhyalaya Zirakpur</h4>
+                </li>
+                <li>
+                    <h5>Sem 1</h5>
+                    <h4>8.37 cgpa</h4>
+                </li>
+                <li>
+                    <h5>Class 12th</h5>
+                    <h4>81%</h4>
+                </li>
+                <li>
+                    <h5>Class 10th</h5>
+                    <h4>85.8%</h4>
+                </li>
+            </ul>
+        </div>
+        
+    </section>
+    <div class="about-interest">
+        <h2 class="title2">Soft Skills</h2>
+        <ul>
+            <li><i class='bx bx-message-rounded-dots'></i>Communication</li>
+            <li><i class='bx bx-time' ></i>Time Management</li>
+            <li><i class='bx bxs-slideshow'></i>Presentation Skills</li>
+            <li><i class='bx bx-face'></i>Soft Spoken</li>
+            <li><i class='bx bx-brain'></i>Critical Thinking</li>
+            <li><i class='bx bx-group'></i>Teamwork</li>
+            <li><i class='bx bx-adjust'></i>Adaptability</li>
+        </ul>
+    </div>
+</body>
+</html>

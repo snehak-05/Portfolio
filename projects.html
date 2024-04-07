@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/
+    libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: #003147;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+.logo{
+    font-size: 25px;
+    color:whitesmoke;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: #03a9f4;
+    text-shadow: 0 0 25px #03a9f4,
+                 0 0 50px #03a9f4;
+    transform: scale(1.1);
+}
+.home{
+    width: 100%;
+    min-height: 50vh;
+    background:lightblue;
+    display: flex;
+    align-items: center;
+    gap:7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 300px;
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 500px;
+    box-shadow: 0 0 25px #003147,
+                0 0 50px #003147;
+}
+.title2
+        {
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            text-align: initial;
+        }
+        .about-interest ul{
+            margin-top: 0;
+            padding: 0;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 0;
+            text-align: center;
+            display: inline-block;
+        }
+        .about-interest ul li{
+            color:white ;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
+            text-align: center;
+        }
+        .about-interest ul li{
+            display: inline-block;
+            padding: 0 15px;
+        }
+        
+        
+
+    </style>
+<body bgcolor="#003147">
+    <header class="header">
+        <a href="#" class="logo"><i class='bx bxs-slideshow'></i>Projects</a>
+    </header>
+    <br><br><br><br><br>
+    <section class="home">
+        <div class="home-content">
+            <h3>Front End Engineering</h3>
+
+            <h1>Food<span> Ordering</span> Website<br></h1>
+
+            <p>Homepage: Featured dishes, navigation menu, search bar.<br>
+                Menu Page: List of dishes, filtering options, add to cart button.<br>
+                Cart Page: View cart items, adjust quantity, calculate total.<br>
+                Checkout Page: Enter delivery details, select payment method, review order.<br>
+                User Account: Registration, login, order history, profile management.<br>
+                Responsive Design: Mobile-friendly layout using CSS media queries.<br>
+                Backend Integration: Connect frontend to backend server for data handling.<br>
+                Performance Optimization: Minify files, optimize images, use asynchronous loading.<br>
+                Security Measures: HTTPS, input sanitization, authentication, authorization.<br>
+                Feedback and Support: Contact form, live chat, feedback collection, prompt response to customer queries.
+                  </p>
+        </div>
+        <div class="img-box">
+            <img src="C:\Users\win\Desktop/th.jpg" alt="">
+        </div>
+    </section>
+    <section class="home">
+        <div class="home-content">
+            <h3>Python Project</h3>
+
+            <h1>Billing<span> Software<br></span></h1>
+
+            <p>Manages inventory, generates invoices, and offers settings options.<br>
+                Handles adding, viewing, and deleting products.<br>
+                Generates invoices with detailed product information and total payable amount.<br>
+                Provides settings for editing the shop name.<br>
+                Utilizes file operations for data storage.<br>
+                Includes basic input validation and error handling.<br>
+                Presents a menu-driven interface for user interaction.<br>
+                Runs in a loop until the user chooses to exit.<br>
+                Would benefit from comments and formatting for readability.                 
+                  </p>
+        </div>
+        <div class="img-box">
+            <img src="C:\Users\win\Desktop/bill.jpg" alt="">
+        </div>
+    </section>
+    <section class="home">
+        <div class="home-content">
+            <h3>Digital Electronics & Computer Architechture</h3>
+
+            <h1>Obstacle<span> Detector<br></span></h1>
+
+            <p>Overview: A group project utilizing Arduino and IR sensor technology to enhance blind stick functionality.<br>
+                Technology: IR sensors detect obstacles via emitted and reflected infrared radiation.<br>
+                Functionality: Continuous obstacle detection triggers alerts, enhancing user safety and mobility.<br>
+                Application: Primarily aids visually impaired individuals, suitable for both indoor and outdoor use.<br>
+                Group Project: Collaborative effort combining expertise in hardware, software, and testing.<br>
+                Future Scope: Potential for advanced features like obstacle classification and connectivity options for remote monitoring.<br>
+                Impact: Empowers visually impaired individuals, improving navigation and independence.
+                  </p>
+        </div>
+        <div class="img-box">
+            <img src="C:\Users\win\Desktop/ar.jpg" alt="">
+        </div>
+    </section>
+    <footer>
+    <div class="about-interest">
+        <h2 class="title2">Technical Skills</h2>
+        <ul>
+            <li><i class="fa-brands fa-python"></i>Python</li>
+            <li><i class='bx bx-time' ></i>C</li>
+            <li><i class='bx bxs-slideshow'></i>DBMS</li>
+            <li><i class='bx bx-face'></i>HTML</li>
+            <li><i class='bx bx-brain'></i>CSS</li>
+            <li><i class='bx bx-group'></i>JavaScript</li>
+            <li><i class='bx bx-adjust'></i>Computer Networking</li>
+        </ul>
+    </div>
+    </footer>
+</body>
+</html>
